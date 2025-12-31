@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Scents - Premium Perfumes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #8B4513; /* Brown color for elegance */
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .product {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Elegant Scents</h1>
+        <p>Discover the finest perfumes crafted for the modern soul.</p>
+    </header>
+    
+    <div class="container">
+        <h2>Our Signature Scents</h2>
+        <div class="product">
+            <img src="https://via.placeholder.com/200x200?text=Perfume+1" alt="Perfume 1" style="width:100%;">
+            <h3>Midnight Rose</h3>
+            <p>A floral masterpiece with notes of rose and jasmine. $50</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200x200?text=Perfume+2" alt="Perfume 2" style="width:100%;">
+            <h3>Ocean Breeze</h3>
+            <p>Fresh and invigorating with citrus and sea salt. $45</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200x200?text=Perfume+3" alt="Perfume 3" style="width:100%;">
+            <h3>Velvet Night</h3>
+            <p>Luxurious and mysterious with vanilla and musk. $55</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Contact Us: info@elegantscents.com | Phone: +1-234-567-890</p>
+        <p>&copy; 2023 Elegant Scents. All rights reserved.</p>
+    </footer>
+</body>
+</html>
